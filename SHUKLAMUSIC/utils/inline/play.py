@@ -73,7 +73,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
 
-        [InlineKeyboardButton(text="『sᴜᴘᴘᴏʀᴛ 』 ", url="https://t.me/II_CHATS_II")],
+        [InlineKeyboardButton(text="『sᴜᴘᴘᴏʀᴛ🥀", url="https://t.me/II_CHATS_II")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -88,7 +88,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/II_CHATS_II")
+            InlineKeyboardButton(text="support", url="https://t.me/II_CHATS_II")
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
