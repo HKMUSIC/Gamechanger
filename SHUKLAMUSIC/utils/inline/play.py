@@ -67,8 +67,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
 
         [
-            InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇ ", url="https://t.me/GOJO_SUPPORT_GROUP_II",),
-            InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url="https://t.me/II_CHATS_II",),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ",url=f"https://t.me/GOJO_SUPPORT_GROUP_II"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ",url=f"https://t.me/II_CHATS_II"),
         ],
     ]
     return buttons
@@ -84,8 +84,8 @@ def stream_markup(_, chat_id):
         ],
         [
             [
-            InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇ ", url="https://t.me/GOJO_SUPPORT_GROUP_II",),
-            InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url="https://t.me/II_CHATS_II",),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ",url=f"https://t.me/GOJO_SUPPORT_GROUP_II"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ",url=f"https://t.me/II_CHATS_II"),
         ],
     ]
     return buttons
