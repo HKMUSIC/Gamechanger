@@ -97,8 +97,8 @@ def stream_markup(_, chat_id):
         ],
         [
             [
-            InlineKeyboardButton(text="",url=f"https://t.me/GOJO_SUPPORT_GROUP_II"),
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ",url=f"https://t.me/II_CHATS_II"),
+            
+            [InlineKeyboardButton(text="『sᴜᴘᴘᴏʀᴛ🥀", url="https://t.me/II_CHATS_II")],,
         ],
     ]
     return buttons
