@@ -79,7 +79,7 @@ async def delete_sticker_after_delay(message, delay):
 @LanguageStart
 async def start_pm(client, message: Message, _):
 
-loading_1 = await message.reply_text(random.choice(GREET))
+loading_1= await message.reply_text(random.choice(GREET))
     await add_served_user(message.from_user.id)
     
     await asyncio.sleep(0.1)
